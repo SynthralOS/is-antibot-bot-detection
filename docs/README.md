@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://antibot.microlink.io/static/banner.png" alt="is-antibot" width="2400" height="500" fetchpriority="high">
+  <img src="https://antibot.microlink.io/static/banner.png" alt="is-antibot" fetchpriority="high">
   <br>
   <br>
   <p><strong>is-antibot</strong> detects antibot and CAPTCHA challenges from 30+ providers using signals.</p>
