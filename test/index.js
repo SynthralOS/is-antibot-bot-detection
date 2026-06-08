@@ -747,6 +747,31 @@ test('amazon (no false positive: CloudFront error off amazon)', t => {
   t.is(result.detected, false)
 })
 
+test('fullstory-challenge (html _fs-ch- asset path)', t => {
+  const html =
+    '<title>Client Challenge</title><link href="/_fs-ch-1T1wmsGaOgGaSxcX/assets/styles.css" rel="stylesheet" />'
+  const result = isAntibot({ html })
+  t.is(result.detected, true)
+  t.is(result.provider, 'fullstory-challenge')
+  t.is(result.detection, 'html')
+})
+
+test('fullstory-challenge (cookie)', t => {
+  const headers = {
+    'set-cookie': '_fs_ch_st_FSBmUei20MqUiJb9=Aa-8rem4vo; Path=/'
+  }
+  const result = isAntibot({ headers })
+  t.is(result.detected, true)
+  t.is(result.provider, 'fullstory-challenge')
+  t.is(result.detection, 'cookies')
+})
+
+test('fullstory-challenge (no false positive for Client Challenge without _fs-ch-)', t => {
+  const html = '<h1>Client Challenge Management Portal</h1>'
+  const result = isAntibot({ html })
+  t.is(result.detected, false)
+})
+
 test('aws-waf (header)', t => {
   const headers = { 'x-amzn-waf-action': 'CHALLENGE' }
   const result = isAntibot({ headers })

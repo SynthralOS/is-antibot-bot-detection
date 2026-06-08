@@ -742,6 +742,27 @@
       ]
     },
     {
+      "name": "fullstory-challenge",
+      "detections": [
+        {
+          "type": "html",
+          "rules": [
+            {
+              "contains": "_fs-ch-"
+            }
+          ]
+        },
+        {
+          "type": "cookies",
+          "rules": [
+            {
+              "cookie": "_fs_ch_st_"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "aws-waf",
       "detections": [
         {
