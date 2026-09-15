@@ -1,3 +1,9 @@
+## 2.5.12 (2026-09-15)
+
+### Bug Fixes
+
+* detect Instagram empty 429 rate limits ([#77](https://github.com/microlinkhq/is-antibot/issues/77)) ([8a333a2](https://github.com/microlinkhq/is-antibot/commit/8a333a2c16b34f61296d7208fae36139123763a9))
+
 ## 2.5.11 (2026-09-02)
 
 ### Bug Fixes
