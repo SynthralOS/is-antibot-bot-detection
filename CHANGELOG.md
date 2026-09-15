@@ -1,3 +1,9 @@
+## 2.5.13 (2026-09-15)
+
+### Bug Fixes
+
+* detect Instagram login-wall 200s ([#78](https://github.com/microlinkhq/is-antibot/issues/78)) ([bdfd8bd](https://github.com/microlinkhq/is-antibot/commit/bdfd8bd9719ae52fa8a05fccb4426722bb8166fc))
+
 ## 2.5.12 (2026-09-15)
 
 ### Bug Fixes
