@@ -1,3 +1,9 @@
+## 2.5.15 (2026-09-16)
+
+### Bug Fixes
+
+* detect Instagram logged-out haste pack ([#80](https://github.com/microlinkhq/is-antibot/issues/80)) ([dcf5d3f](https://github.com/microlinkhq/is-antibot/commit/dcf5d3f3a2c8153702f5df165d83be2688e62b9e))
+
 ## 2.5.14 (2026-09-16)
 
 ### Bug Fixes
