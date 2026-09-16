@@ -1,3 +1,9 @@
+## 2.5.14 (2026-09-16)
+
+### Bug Fixes
+
+* detect Hostinger hCDN JS challenge ([#79](https://github.com/microlinkhq/is-antibot/issues/79)) ([add0bdf](https://github.com/microlinkhq/is-antibot/commit/add0bdf2c8d16961305d834b051bc507f71e8397))
+
 ## 2.5.13 (2026-09-15)
 
 ### Bug Fixes
