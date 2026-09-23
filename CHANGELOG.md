@@ -1,3 +1,9 @@
+## 2.5.17 (2026-09-23)
+
+### Bug Fixes
+
+* accept Instagram pages that already have Open Graph ([#83](https://github.com/microlinkhq/is-antibot/issues/83)) ([c28481f](https://github.com/microlinkhq/is-antibot/commit/c28481ffbdc974eaae97719893cd9551bdecdb8d))
+
 ## 2.5.16 (2026-09-23)
 
 ### Bug Fixes
