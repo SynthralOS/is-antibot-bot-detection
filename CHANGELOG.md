@@ -1,3 +1,9 @@
+## 2.5.16 (2026-09-23)
+
+### Bug Fixes
+
+* accept Instagram logged-out metadata ([#82](https://github.com/microlinkhq/is-antibot/issues/82)) ([15f5a86](https://github.com/microlinkhq/is-antibot/commit/15f5a866026e8b8a7fe1a6edb2b82a3bdfa688c4))
+
 ## 2.5.15 (2026-09-16)
 
 ### Bug Fixes
